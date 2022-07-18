@@ -2,7 +2,7 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: "Egwutuoha Ugochukwu",
-	title: "Hi all, I'm Ugochukwu,  WELCOME TO SAGE TECH SERVICES",
+	title: "Hi all, I'm Ugochukwu, <b WELCOME TO SAGE TECH SERVICES",
 	description:
 		"I'm a passionate web developer having an experience of web applications with React.js, Next.js, Sanity, WordPress and Blockchain development on Ethereum, Solidity, and Web3.js",
 	resumeLink:
