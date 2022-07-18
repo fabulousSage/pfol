@@ -66,12 +66,8 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:wordpress",
 				},
 				{
-					skillName: "Sanity CMS",
-					fontAwesomeClassname: "logos:sanity",
-				},
-				{
-					skillName: "NodeJs",
-					fontAwesomeClassname: "logos:nodejs",
+					skillName: "Sa",
+					fontAwesomeClassname: "vscode-icons:file-type-django",
 				},
 
 				{
@@ -206,14 +202,14 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Nnamdi Azikiwe University",
-		subHeader: "BSc",
-		duration: "September 2013 - April 2019",
-		desc: ".",
-		//descBullets: [
-		//	"",
-		//	"",
-		//],
+		schoolName: "Harvard University",
+		subHeader: "Master of Science in Computer Science",
+		duration: "September 2017 - April 2019",
+		desc: "Participated in the research of XXX and published 3 papers.",
+		descBullets: [
+			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		],
 	},
 ];
 
@@ -223,18 +219,18 @@ export const experience = [
 		company: "Duseca Software",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
 		date: "Jan 2022 – Mar 2022",
-		desc: "",
-		 descBullets: [
-		 	"",
-		 	"",
-		 ],
+		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		// descBullets: [
+		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		// ],
 	},
 	{
 		role: "Full Stack Developer",
 		company: "Bleed-AI",
 		companylogo: "/img/icons/common/bleedAI.jpg",
 		date: "Sept 2021 - Oct 2021",
-		desc: "Worked at self employed"
+		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
 	},
 	{
 		role: "Backend Developer",

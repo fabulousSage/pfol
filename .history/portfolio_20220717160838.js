@@ -223,7 +223,7 @@ export const experience = [
 		company: "Duseca Software",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
 		date: "Jan 2022 – Mar 2022",
-		desc: "",
+		desc: "r the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
 		 descBullets: [
 		 	"",
 		 	"",

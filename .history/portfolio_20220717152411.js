@@ -223,11 +223,11 @@ export const experience = [
 		company: "Duseca Software",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
 		date: "Jan 2022 – Mar 2022",
-		desc: "",
-		 descBullets: [
-		 	"",
-		 	"",
-		 ],
+		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		// descBullets: [
+		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		// ],
 	},
 	{
 		role: "Full Stack Developer",
@@ -235,12 +235,11 @@ export const experience = [
 		companylogo: "/img/icons/common/bleedAI.jpg",
 		date: "Sept 2021 - Oct 2021",
 		desc: "Worked at self employed"
-	},
 	{
 		role: "Backend Developer",
 		company: "Wapidu",
 		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
+		date: "Sept 202",
 		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
 	},
 ];

@@ -223,7 +223,7 @@ export const experience = [
 		company: "Duseca Software",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
 		date: "Jan 2022 – Mar 2022",
-		desc: "",
+		desc: "High PerforT Authentication,  .",
 		 descBullets: [
 		 	"",
 		 	"",
