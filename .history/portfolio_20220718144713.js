@@ -221,7 +221,7 @@ export const experience = [
 	{
 		role: "CTO",
 		company: "CoshTech",
-		companylogo: "https://github.com/fabulousSage/pfol/blob/main/coshTech.jpg",
+		companylogo: "C:\Users\user\Desktop\portfolio 2\real\pfol\coshTech.jpg",
 		date: "Jan 2021 – Till Date",
 		desc: "",
 		 descBullets: [
@@ -239,7 +239,7 @@ export const experience = [
 	{
 		role: "Quality Control",
 		company: "Valleumbra",
-		companylogo: "https://github.com/fabulousSage/pfol/blob/main/valle.jpg",
+		companylogo: "https://coshtech.com/wp-content/uploads/2022/07/1633021641-18-valleumbra-flour-mills-limited.jpg",
 		date: "March 2015",
 		desc: "Worked as a quality control officer.",
 	},

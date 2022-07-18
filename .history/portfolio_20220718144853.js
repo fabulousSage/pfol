@@ -239,7 +239,7 @@ export const experience = [
 	{
 		role: "Quality Control",
 		company: "Valleumbra",
-		companylogo: "https://github.com/fabulousSage/pfol/blob/main/valle.jpg",
+		companylogo: "https://github.com/fabulousSage/pfol/blob/main/valle.jpgcl",
 		date: "March 2015",
 		desc: "Worked as a quality control officer.",
 	},
