@@ -223,11 +223,11 @@ export const experience = [
 		company: "CoshTech",
 		companylogo: "/img/icons/common/coshTech.jpg",
 		date: "Jan 2021 – Till Date",
-		// desc: "",
-		//  descBullets: [
-		//  	"",
-		//  	"",
-		//  ],
+		desc: "",
+		 descBullets: [
+		 	"",
+		 	"",
+		 ],
 	},
 	// {
 	// 	role: "Full Stack Developer",

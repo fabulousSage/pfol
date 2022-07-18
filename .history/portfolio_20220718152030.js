@@ -221,13 +221,13 @@ export const experience = [
 	{
 		role: "CTO",
 		company: "CoshTech",
-		companylogo: "/img/icons/common/coshTech.jpg",
+		companylogo: "/img/icons/common/",
 		date: "Jan 2021 – Till Date",
-		// desc: "",
-		//  descBullets: [
-		//  	"",
-		//  	"",
-		//  ],
+		desc: "",
+		 descBullets: [
+		 	"",
+		 	"",
+		 ],
 	},
 	// {
 	// 	role: "Full Stack Developer",
@@ -239,9 +239,9 @@ export const experience = [
 	{
 		role: "Quality Control",
 		company: "Valleumbra",
-		companylogo: "/img/icons/common/valle.jpg",
+		companylogo: "valle.jpg",
 		date: "March 2015",
-		//desc: "Worked as a quality control officer.",
+		desc: "Worked as a quality control officer.",
 	},
 ];
 
