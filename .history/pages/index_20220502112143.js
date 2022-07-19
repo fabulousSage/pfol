@@ -19,19 +19,19 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Egwutuoha Ugochukwu",
+					title: "Hanzla Tauqeer",
 					description:
 						"A passionate Full Stack Web Developer and Blockchain Developer.",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://sagetechservices.netlify.app",
+					url: "https://developer-portfolio-1hanzla100.vercel.app",
 					keywords: [
-						"Egwutuoha",
-						"Egwutuoha Ugochukwu",
-						"fabuloussage",
-						"fabulous_SAGE",
+						"Hanzla",
+						"Hanzla Tauqeer",
+						"@1hanzla100",
+						"1hanzla100",
 						"Portfolio",
-						"Egwutuoha Ugochukwu Portfolio ",
-						"Egwutuoha Portfolio",
+						"Hanzla Portfolio ",
+						"Hanzla Tauqeer Portfolio",
 					],
 				}}
 			/>

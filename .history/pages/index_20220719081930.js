@@ -23,15 +23,15 @@ export default function Home({ githubProfileData }) {
 					description:
 						"A passionate Full Stack Web Developer and Blockchain Developer.",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://sagetechservices.netlify.app",
+					url: "https://developer-portfolio-1hanzla100.vercel.app",
 					keywords: [
 						"Egwutuoha",
 						"Egwutuoha Ugochukwu",
 						"fabuloussage",
 						"fabulous_SAGE",
 						"Portfolio",
-						"Egwutuoha Ugochukwu Portfolio ",
-						"Egwutuoha Portfolio",
+						" Portfolio ",
+						"Hanzla Tauqeer Portfolio",
 					],
 				}}
 			/>
