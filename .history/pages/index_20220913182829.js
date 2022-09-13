@@ -3,10 +3,13 @@ import PropTypes from "prop-types";
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
-const Experience = dynamic(() => import("../containers/Experience")); const GithubProfileCard = dynamic(() =>
+const Education = dynamic(() => import("../containers/Education"));
+const Experience = dynamic(() => import("../containers/Experience"));
+const Projects = dynamic(() => import("../containers/Projects"));
+const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
+const GithubProfileCard = dynamic(() =>
 	import("../components/GithubProfileCard")
 );
-
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 
@@ -34,7 +37,9 @@ export default function Home({ githubProfileData }) {
 			<Navigation />
 			<Greetings />
 			<Skills />
+			<Education />
 			<Experience />
+			<Projects />
 			<GithubProfileCard prof={githubProfileData} />
 		</div>
 	);

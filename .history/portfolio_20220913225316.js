@@ -1,7 +1,7 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "",
+	name: "IT and Digital Solutions Provider | Software Development | Concy",
 	title: "IT and Digital Solutions Provider",
 	description:
 		"Custom Software Development And IT Services That Meets Your Business Goals. We are Internet of Things Provider and Excellence is our Partner.",
@@ -14,11 +14,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "",
-	instagram: "",
-	twitter: "",
-	github: "",
-	linkedin: "",
+	facebook: "https://www.facebook.com/fabuloussage/",
+	instagram: "https://www.instagram.com/fabulous_sage/",
+	twitter: "https://twitter.com/Fabulous_SAGE",
+	github: "https://github.com/fabuloussage",
+	linkedin: "https://www.linkedin.com/in/ugochukwu-egwutuoha-02a9221a6/",
 };
 
 export const skillsSection = {

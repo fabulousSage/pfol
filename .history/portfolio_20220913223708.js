@@ -1,7 +1,7 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "",
+	name: "IT and Digital Solutions Provider | Software Development | Concy",
 	title: "IT and Digital Solutions Provider",
 	description:
 		"Custom Software Development And IT Services That Meets Your Business Goals. We are Internet of Things Provider and Excellence is our Partner.",
@@ -14,11 +14,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "",
-	instagram: "",
-	twitter: "",
-	github: "",
-	linkedin: "",
+	facebook: "https://www.facebook.com/fabuloussage/",
+	instagram: "https://www.instagram.com/fabulous_sage/",
+	twitter: "https://twitter.com/Fabulous_SAGE",
+	github: "https://github.com/fabuloussage",
+	linkedin: "https://www.linkedin.com/in/ugochukwu-egwutuoha-02a9221a6/",
 };
 
 export const skillsSection = {
@@ -27,7 +27,7 @@ export const skillsSection = {
 		"~Web App & Web Development, ~Decentralized Applications And Smart Contracts, ~System Networking, Database Design  & Management",
 	data: [
 		{
-			title: "Web App & Web Development",
+			title: "Full Stack Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
@@ -90,6 +90,7 @@ export const skillsSection = {
 			title: "Cloud Infra-Architecture",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
+				emoji("⚡ Experience of working on multiple cloud platforms"),
 				emoji(
 					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
 				),
@@ -145,16 +146,19 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building of Smart Contract using Solidity"
+					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
 				),
 				emoji(
-					"⚡ Building Dapps with React.js, Web3.js, and Solidity"  //using Brownie & Infura
+					"⚡ Building Scripts for automated testing & deployment of Smart Contracts"  //using Brownie & Infura
 				),
 				emoji(
-					"⚡ Building $ Deployment Of Smart Contracts Using Openzeppelin Libraries & Chainlink Oracles"
+					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
 				),
 				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 and ThirdWeb SDKs"
+					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
+				),
+				emoji(
+					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
 				),
 			],
 			softwareSkills: [
@@ -201,22 +205,29 @@ export const SkillBars = [
 
 export const experience = [
 	{
-		role: "",
-		company: "BitsAfrika",
-		companylogo: "/img/icons/common/bitsafrika.jpeg",
-		Description: "Bitcoin, Ethereum, Polkadot and the future of DeFi",
+		role: "CTO",
+		company: "CoshTech",
+		companylogo: "/img/icons/common/coshTech.jpg",
+		date: "Jan 2021 – Till Date",
+		// desc: "",
+		//  descBullets: [
+		//  	"",
+		//  	"",
+		//  ],
 	},
+	// {
+	// 	role: "Full Stack Developer",
+	// 	company: "Bleed-AI",
+	// 	companylogo: "/img/icons/common/bleedAI.jpg",
+	// 	date: "Sept 2021 - Oct 2021",
+	// 	desc: "Worked at self employed"
+	// },
 	{
-		role: "Full Stack Developer",
-		company: "SafeOdds",
-		companylogo: "/img/icons/common/safeodds.jpeg",
-		Description: "A football prediction web application",
-	},
-	{
-		role: "",
-		company: "Concy Technologies",
-		companylogo: "/img/icons/common/concy.jpeg",
-		Description: "IT and Digital Solutions Provider",
+		role: "Quality Control",
+		company: "Valleumbra",
+		companylogo: "/img/icons/common/valle.jpg",
+		date: "March 2015",
+		//desc: "Worked as a quality control officer.",
 	},
 ];
 
