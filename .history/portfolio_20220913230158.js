@@ -14,7 +14,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "",
+	facebook: "https://www.facebook.com/fabuloussage/",
 	instagram: "",
 	twitter: "",
 	github: "",

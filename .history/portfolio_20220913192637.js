@@ -1,7 +1,7 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "",
+	name: "IT and Digital Solutions Provider | Software Development | Concy",
 	title: "IT and Digital Solutions Provider",
 	description:
 		"Custom Software Development And IT Services That Meets Your Business Goals. We are Internet of Things Provider and Excellence is our Partner.",
@@ -14,11 +14,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "",
-	instagram: "",
-	twitter: "",
-	github: "",
-	linkedin: "",
+	facebook: "https://www.facebook.com/fabuloussage/",
+	instagram: "https://www.instagram.com/fabulous_sage/",
+	twitter: "https://twitter.com/Fabulous_SAGE",
+	github: "https://github.com/fabuloussage",
+	linkedin: "https://www.linkedin.com/in/ugochukwu-egwutuoha-02a9221a6/",
 };
 
 export const skillsSection = {
@@ -61,7 +61,7 @@ export const skillsSection = {
 				},
 				{
 					skillName: "WordPress",
-					fontAwesomeClassname: "logos:WordPress",
+					fontAwesomeClassname: "logos:wordpress",
 				},
 				{
 					skillName: "Sanity CMS",
@@ -84,6 +84,25 @@ export const skillsSection = {
 					skillName: "Yarn",
 					fontAwesomeClassname: "logos:yarn",
 				},
+			],
+		},
+
+		{
+			title: "Blockchain",
+			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+			skills: [
+				emoji(
+					"⚡ Building of Smart Contract using Solidity"
+				),
+				emoji(
+					"⚡ Building Dapps with React.js, Web3.js, and Solidity"  //using Brownie & Infura
+				),
+				emoji(
+					"⚡ Building $ Deployment Of Smart Contracts Using Openzeppelin Libraries & Chainlink Oracles"
+				),
+				emoji(
+					"⚡ Developing NFT Smart Contracts using ERC-721 and ThirdWeb SDKs"
+				),
 			],
 		},
 		{
@@ -140,83 +159,35 @@ export const skillsSection = {
 				},
 			],
 		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Building of Smart Contract using Solidity"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js, Web3.js, and Solidity"  //using Brownie & Infura
-				),
-				emoji(
-					"⚡ Building $ Deployment Of Smart Contracts Using Openzeppelin Libraries & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 and ThirdWeb SDKs"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
-			],
-		},
 	],
 };
-
-export const SkillBars = [
-	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
-	},
-	{
-		Stack: "Backend",
-		progressPercentage: "70",
-	},
-	{
-		Stack: "Programming",
-		progressPercentage: "60",
-	},
-];
 
 
 export const experience = [
 	{
-		role: "",
-		company: "BitsAfrika",
-		companylogo: "/img/icons/common/bitsafrika.jpeg",
-		Description: "Bitcoin, Ethereum, Polkadot and the future of DeFi",
+		role: "CTO",
+		company: "CoshTech",
+		companylogo: "/img/icons/common/coshTech.jpg",
+		date: "Jan 2021 – Till Date",
+		// desc: "",
+		//  descBullets: [
+		//  	"",
+		//  	"",
+		//  ],
 	},
+	// {
+	// 	role: "Full Stack Developer",
+	// 	company: "Bleed-AI",
+	// 	companylogo: "/img/icons/common/bleedAI.jpg",
+	// 	date: "Sept 2021 - Oct 2021",
+	// 	desc: "Worked at self employed"
+	// },
 	{
-		role: "Full Stack Developer",
-		company: "SafeOdds",
-		companylogo: "/img/icons/common/safeodds.jpeg",
-		Description: "A football prediction web application",
-	},
-	{
-		role: "",
-		company: "Concy Technologies",
-		companylogo: "/img/icons/common/concy.jpeg",
-		Description: "IT and Digital Solutions Provider",
+		role: "Quality Control",
+		company: "Valleumbra",
+		companylogo: "/img/icons/common/valle.jpg",
+		date: "March 2015",
+		//desc: "Worked as a quality control officer.",
 	},
 ];
 

@@ -1,7 +1,7 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "",
+	name: "IT and Digital Solutions Provider | Software Development | Concy",
 	title: "IT and Digital Solutions Provider",
 	description:
 		"Custom Software Development And IT Services That Meets Your Business Goals. We are Internet of Things Provider and Excellence is our Partner.",
@@ -14,11 +14,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "",
-	instagram: "",
-	twitter: "",
-	github: "",
-	linkedin: "",
+	facebook: "https://www.facebook.com/fabuloussage/",
+	instagram: "https://www.instagram.com/fabulous_sage/",
+	twitter: "https://twitter.com/Fabulous_SAGE",
+	github: "https://github.com/fabuloussage",
+	linkedin: "https://www.linkedin.com/in/ugochukwu-egwutuoha-02a9221a6/",
 };
 
 export const skillsSection = {
@@ -86,60 +86,7 @@ export const skillsSection = {
 				},
 			],
 		},
-		{
-			title: "Cloud Infra-Architecture",
-			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
-				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
-				},
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
-				},
-				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
-				},
-				{
-					skillName: "Docker",
-					fontAwesomeClassname: "logos:docker-icon",
-				},
-				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
-				},
-				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
-			],
-		},
+
 		{
 			title: "Blockchain",
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
@@ -177,6 +124,60 @@ export const skillsSection = {
 				{
 					skillName: "Ganache",
 					fontAwesomeClassname: "logos:ganache-icon",
+				},
+				{
+					title: "Cloud Infra-Architecture",
+					lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
+					skills: [
+						emoji(
+							"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
+						),
+						emoji(
+							"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+						),
+					],
+					softwareSkills: [
+						{
+							skillName: "AWS",
+							fontAwesomeClassname: "logos:aws",
+						},
+						{
+							skillName: "Azure",
+							fontAwesomeClassname: "logos:microsoft-azure",
+						},
+						{
+							skillName: "Heroku",
+							fontAwesomeClassname: "logos:heroku-icon",
+						},
+						{
+							skillName: "PostgreSQL",
+							fontAwesomeClassname: "logos:postgresql",
+						},
+						{
+							skillName: "Github",
+							fontAwesomeClassname: "akar-icons:github-fill",
+						},
+						{
+							skillName: "Docker",
+							fontAwesomeClassname: "logos:docker-icon",
+						},
+						{
+							skillName: "Github Actions",
+							fontAwesomeClassname: "logos:github-actions",
+						},
+						{
+							skillName: "Cloudinary",
+							fontAwesomeClassname: "logos:cloudinary",
+						},
+						{
+							skillName: "Nginx",
+							fontAwesomeClassname: "logos:nginx",
+						},
+						{
+							skillName: "Sentry",
+							fontAwesomeClassname: "logos:sentry-icon",
+						},
+					],
 				},
 			],
 		},

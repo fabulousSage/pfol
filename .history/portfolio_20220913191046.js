@@ -1,24 +1,24 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "",
+	name: "IT and Digital Solutions Provider | Software Development | Concy",
 	title: "IT and Digital Solutions Provider",
 	description:
 		"Custom Software Development And IT Services That Meets Your Business Goals. We are Internet of Things Provider and Excellence is our Partner.",
+
 };
 
 export const openSource = {
-	githubUserName: "fabuloussage",
+	githubUserName: "",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "",
-	instagram: "",
-	twitter: "",
-	github: "",
-	linkedin: "",
+
+	twitter: "https://twitter.com/",
+	github: "https://github.com/",
+	linkedin: "https://",
 };
 
 export const skillsSection = {
@@ -61,7 +61,7 @@ export const skillsSection = {
 				},
 				{
 					skillName: "WordPress",
-					fontAwesomeClassname: "logos:WordPress",
+					fontAwesomeClassname: "logos:wordpress",
 				},
 				{
 					skillName: "Sanity CMS",
@@ -84,6 +84,25 @@ export const skillsSection = {
 					skillName: "Yarn",
 					fontAwesomeClassname: "logos:yarn",
 				},
+			],
+		},
+
+		{
+			title: "Blockchain",
+			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+			skills: [
+				emoji(
+					"⚡ Building of Smart Contract using Solidity"
+				),
+				emoji(
+					"⚡ Building Dapps with React.js, Web3.js, and Solidity"  //using Brownie & Infura
+				),
+				emoji(
+					"⚡ Building $ Deployment Of Smart Contracts Using Openzeppelin Libraries & Chainlink Oracles"
+				),
+				emoji(
+					"⚡ Developing NFT Smart Contracts using ERC-721 and ThirdWeb SDKs"
+				),
 			],
 		},
 		{
@@ -140,46 +159,6 @@ export const skillsSection = {
 				},
 			],
 		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Building of Smart Contract using Solidity"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js, Web3.js, and Solidity"  //using Brownie & Infura
-				),
-				emoji(
-					"⚡ Building $ Deployment Of Smart Contracts Using Openzeppelin Libraries & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 and ThirdWeb SDKs"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
-			],
-		},
 	],
 };
 
@@ -198,25 +177,25 @@ export const SkillBars = [
 	},
 ];
 
-
 export const experience = [
 	{
 		role: "",
 		company: "BitsAfrika",
-		companylogo: "/img/icons/common/bitsafrika.jpeg",
+		companylogo: "/img/icons/common/bitsafrika",
 		Description: "Bitcoin, Ethereum, Polkadot and the future of DeFi",
+
 	},
 	{
 		role: "Full Stack Developer",
 		company: "SafeOdds",
-		companylogo: "/img/icons/common/safeodds.jpeg",
+		companylogo: "/img/icons/common/safeodds",
 		Description: "A football prediction web application",
+
 	},
 	{
 		role: "",
 		company: "Concy Technologies",
-		companylogo: "/img/icons/common/concy.jpeg",
+		companylogo: "/img/icons/common/concy",
 		Description: "IT and Digital Solutions Provider",
 	},
 ];
-
